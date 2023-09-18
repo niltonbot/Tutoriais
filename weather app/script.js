@@ -24,7 +24,7 @@ let weather = {
         document.body.style.backgroundImage = "url('https://source.unsplash.com/random/?" + name + "')";
     },
     search: function () {
-        this.fetchWeather(document.querySelector(".search-bar").value);
+        this.fetchWeather(document.querySelector(".search-bar").value);//comentario
     }
 };
 
